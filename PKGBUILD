@@ -1,8 +1,8 @@
 # Maintainer: Benjamin Cremer <bc@benjamin-cremer.de>
 
 pkgname=phpstorm-url-handler
-pkgver=0.0.1
-pkgrel=1
+pkgver=0.0.2
+pkgrel=2
 pkgdesc="Open pstorm:// URLs in phpstorm. Based on http://blog.byscripts.info/2013/02/txmt-protocol-and-sublime-text-2-english.html"
 url='https://github.com/bcremer/phpstorm-url-handler-PKGBUILD'
 arch=('any')
