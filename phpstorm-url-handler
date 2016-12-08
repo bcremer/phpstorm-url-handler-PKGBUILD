@@ -2,7 +2,7 @@
 REQUEST=${1}
 REGEX="^pstorm://open/\?url=file://(.*)&line=(.*)$"
 if [[ $REQUEST =~ $REGEX ]]; then
-    /usr/bin/phpstorm.sh "--line ${BASH_REMATCH[2]} ${BASH_REMATCH[1]}"
+    /usr/bin/phpstorm --line ${BASH_REMATCH[2]} ${BASH_REMATCH[1]}
     exit 0
 fi
 
